@@ -63,6 +63,27 @@ nav > a {
     text-decoration: none;
 }
 
+/* MOBILE */
+@media (max-width: 770px) {
+    nav ul {
+        flex-direction: column; /* Stacks the nav items vertically */
+        align-items: flex-start; /* Aligns links to the left */
+        gap: 0.5em;
+        padding: 1em; /* Adds spacing around the links */
+    }
+
+    nav ul a {
+        font-size: 18px; /* Slightly smaller text for links */
+        padding: 10px 15px; /* Add padding for touch-friendly links */
+    }
+
+    body {
+        padding-top: 90px; /* Increase padding to avoid collision with nav */
+    }
+}
+
+
+
 
 /* -----Body Part Part------- */
 
